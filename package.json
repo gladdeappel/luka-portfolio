@@ -10,10 +10,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-    // Je originele dependencies (zonder wijzigingen)
+   
     "@emotion/is-prop-valid": "latest",
     "@heroicons/react": "latest",
-    // ... (al je bestaande dependencies blijven staan) ...
+  
     "next": "15.2.4",
     "react": "^19",
     "react-dom": "^19",
@@ -22,8 +22,7 @@
     "postcss": "^8.5"
   },
   "devDependencies": {
-    // Verplaats ALLE build-noodzakelijke packages naar dependencies
-    // Alleen typings blijven hier:
+  
     "@types/node": "^22",
     "@types/react": "^19",
     "@types/react-dom": "^19"
