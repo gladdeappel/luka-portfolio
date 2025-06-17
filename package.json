@@ -8,7 +8,7 @@
     "serve": "next start",
     "start": "next start",
     "lint": "next lint",
-    "install": "npm install --include=dev"
+    "install": "npm install --force --legacy-peer-deps"
   },
   "dependencies": {
     "@emotion/is-prop-valid": "latest",
@@ -72,5 +72,9 @@
     "@types/node": "^22",
     "@types/react": "^19",
     "@types/react-dom": "^19"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=9.0.0"
   }
 }
