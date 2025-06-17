@@ -9,6 +9,13 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  output: 'standalone',
+  server: {
+    port: process.env.PORT || 3000,
+  },
+  
+  compress: true,
+  productionBrowserSourceMaps: false, 
 }
 
 export default nextConfig
