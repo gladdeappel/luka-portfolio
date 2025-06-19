@@ -6,7 +6,6 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "install": "rm -rf node_modules && npm install --production=false --force",
     "lint": "next lint"
   },
   "dependencies": {
